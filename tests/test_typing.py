@@ -229,3 +229,4 @@ class TestFloatLike:
     def test_non_floatlike_types_are_rejected(self, value):
         """Strings, lists, None, NumPy arrays, and complex numbers are not valid gate parameters."""
         assert not isinstance(value, FloatLike)
+
